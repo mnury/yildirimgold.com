@@ -1,0 +1,10 @@
+services:
+  yildirimgold:
+    build: .
+    container_name: yildirimgold
+    ports:
+      - "0.0.0.0:8080:80"
+    volumes:
+      - /home/deploy/yildirimgold.com:/usr/share/nginx/html:ro
+      - /home/deploy/yildirimgold.com/deploy/container-nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
