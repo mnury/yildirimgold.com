@@ -4,4 +4,8 @@
     <loc>https://yildirimgold.com/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://yildirimgold.com/gizlilik-politikasi.html</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
